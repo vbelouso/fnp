@@ -6,7 +6,7 @@ metadata:
 spec:
   podSelector:
     matchLabels:
-      app: nginx
+      app: nginx-sync
   ingress:
     - from:
       - podSelector:
