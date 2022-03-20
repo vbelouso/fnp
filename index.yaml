@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  networkpolicy:
+  - apiVersion: v2
+    appVersion: 1.16.1
+    created: "2022-03-20T08:29:14.021833046Z"
+    description: A Helm chart for Kubernetes
+    digest: 98a5e24e4e63b97f56f132250834d4e630e00b5c3272a63d3ab61748e3a34bee
+    name: networkpolicy
+    type: application
+    urls:
+    - https://github.com/vbelouso/fnp/networkpolicy-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-03-20T08:29:14.021110552Z"
