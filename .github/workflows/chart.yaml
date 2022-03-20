@@ -12,7 +12,7 @@ on:
         required: true
 
 env:
-  HELM_REPO_URL: "https://github.com/vbelouso/fnp"
+  HELM_REPO_URL: "https://vbelouso.github.io/fnp"
 
 jobs:
   deploy:
