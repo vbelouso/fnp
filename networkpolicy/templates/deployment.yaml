@@ -2,7 +2,7 @@ kind: Deployment
 apiVersion: apps/v1
 metadata:
   name: helper-01
-  namespace: finastra-np-demo1
+  namespace: {{ .Release.Namespace }}
 spec:
   replicas: 1
   selector:
@@ -15,4 +15,23 @@ spec:
     spec:
       containers:
         - name: helper-01
+          image: "quay.io/vbelouso/ctools:latest"
+---
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: helper-02
+  namespace: {{ .Release.Namespace }}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: helper-02
+  template:
+    metadata:
+      labels:
+        app: helper-02
+    spec:
+      containers:
+        - name: helper-02
           image: "quay.io/vbelouso/ctools:latest"
