@@ -3,12 +3,12 @@ entries:
   networkpolicy:
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2022-03-20T19:02:03.449359713+02:00"
+    created: "2022-03-20T19:08:23.461997794+02:00"
     description: A Helm chart for Kubernetes
-    digest: b5a051f965046556b4db061cd724c953a774a12d2071f3b834de42ff82362e4e
+    digest: 87d838888bc13820d0749ffa9480b4c6649b39627bce5bb9b1c7fc6c411a3a92
     name: networkpolicy
     type: application
     urls:
-    - networkpolicy-2.0.0.tgz
-    version: 2.0.0
-generated: "2022-03-20T19:02:03.449080187+02:00"
+    - networkpolicy-2.0.1.tgz
+    version: 2.0.1
+generated: "2022-03-20T19:08:23.461452374+02:00"
