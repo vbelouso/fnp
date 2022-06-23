@@ -1,8 +1,8 @@
 .nav-bar {
-      background: linear-gradient(to bottom, #999, #777, #333, #222, #111);
+  background: linear-gradient(to bottom, #999, #777, #333, #222, #111);
+  width: 80px;
 }
 
 .nav-bar__logo img { 
   content: url(https://vbelouso.github.io/fnp/Product_Icon-Red_Hat-OpenShift-RGB.png);
 }
-#
